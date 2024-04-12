@@ -1,0 +1,152 @@
+doctype html
+html(lang="en")
+    head
+        include includes/meta
+        //- link style
+        include includes/styles
+        title WD
+    body 
+        header.header.background 
+            .header__container
+                .header__logo 
+                    a(href="" aria-label="logo")
+                        img(src="images/logo.png", alt="logo")
+                nav.header__menu.menu 
+                    ul.menu__list
+                        include includes/menu
+                    .menu__burger
+                        .menu__burger-line
+            .header__body 
+                .header__body-img
+                    img(src="images/computer.png", alt="computer")
+                .header__body-content
+                    h1.header__body-content-title.title Дизайн и верстка
+                    p.header__body-content-desc.desc Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    .header__body-button 
+                        button.button.btn.button-mt НАПИСАТЬ МНЕ
+        main.main 
+            section.main__about.about
+                h2.main__about-title.title Обо мне
+                p.main__about-desc.desc Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            
+            //- section projects
+            section.main__projects.main__projects-bg
+                .container
+                    .main__projects-img 
+                        img(src="images/projects/projects.svg", alt="projects")
+                        img(src="images/projects/projects.svg", alt="projects")
+                        img(src="images/projects/projects.svg", alt="projects")
+                        img(src="images/projects/projects.svg", alt="projects")
+                        img(src="images/projects/projects.svg", alt="projects")
+                        img(src="images/projects/projects.svg", alt="projects")
+
+            //- section skills
+
+            section.main__skills 
+                .container 
+                    .main__skills-body
+                        .main__skills-body-cards 
+                            h2.main__skills-body-title.title Мои навыки
+                            .main__skills-body-progress-text Adobe Photoshop
+                            .main__skills-body-progress
+                                progress(value='70' max="100") 70%
+                            .main__skills-body-progress-text Adobe AfterEffect
+                            .main__skills-body-progress
+                                progress(value='70' max="100") 70%
+                            .main__skills-body-progress-text Adobe Premiere
+                            .main__skills-body-progress
+                                progress(value='70' max="100") 70%
+                        .main__skills-body-img 
+                            img(src="images/author/author.jpg", alt="author")
+
+            //- section work
+
+            section.main__work.background
+                .container 
+                    .main__work-body 
+                        h2.main__work-title.title Обо мне
+                        p.main__work-desc.desc Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    video(src="video/work.mp4" controls autoplay)
+            
+            //- section card images
+
+            section.main__cards
+                .main__cards-body 
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card1.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card2.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card1.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card2.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card2.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card1.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card2.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    .main__cards-body-img
+                        img(class="image" src="images/card/card1.png", alt="card")
+                        .main__cards-body-img-overlay 
+                            a(class="overlay-link" href="" aria-label="picture")
+                                img(src="images/card/overlay/overlay.png", alt="overlay")
+                    
+                .container
+                    .main__cards-microsoft 
+                        .main__cards-firms 
+                            a(href="" aria-label="microsoft")
+                                img(src="images/microsoft.png", alt="microsoft")
+                        .main__cards-firms 
+                            a(href="" aria-label="microsoft")
+                                img(src="images/microsoft.png", alt="microsoft")
+                        .main__cards-firms 
+                            a(href="" aria-label="microsoft")
+                                img(src="images/microsoft.png", alt="microsoft")
+                        .main__cards-firms 
+                            a(href="" aria-label="microsoft")
+                                img(src="images/microsoft.png", alt="microsoft")
+
+            section.main__web-developers.background 
+                .container 
+                    .main__web-developer-body 
+                        h2.main__web-developer-title.title Хотите веб сайт?
+                        p.main__web-developer-desc.desc Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+
+                        //- form
+                        form.main__web-developer-form(action="")
+                            input(type="text" name="text" placeholder="Ваше имя:")
+                            input(type="email" name="email" placeholder="Ваш e-mail:")
+                            textarea.textarea Сообщение
+                            button.button.btn.button-mt.main__web-developer-button Отправить
+        footer.footer 
+            .container 
+                .footer__body
+                    .footer__text
+                        a(href="" aria-label="Иванов Иван") Иванов Иван
+                    .footer__social 
+                        img(src="images/vk.svg", alt="vk" aria-label="vk")
+                        img(src="images/vk.svg", alt="vk" aria-label="vk")
+                        img(src="images/vk.svg", alt="vk" aria-label="vk")
+        script(src="./js/script.js") 

@@ -1,0 +1,129 @@
+@media screen and (max-width: 1070px) {
+    .main__projects-img > img {
+        width: 160px;
+        height: auto;
+        display: block;
+        padding-bottom: 35px;
+    }
+
+
+    .main__projects-img >img:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .main__projects-img > img {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 924px) {
+
+    .header__body {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+
+        &-img {
+            width: inherit;
+            display: block;
+            padding-bottom: 55px;
+        }
+
+        &-content {
+            margin-left: 0;
+            text-align: center;
+        }
+
+    }
+
+    .main__about {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .main__skills {
+        padding: 50px 0;
+    }
+
+    .main__projects-img > img {
+        width: 25%;
+    }
+
+    .main__cards-body-img {
+        width: 50%;
+    }
+
+    .main__work-body {
+        padding-top: 50px;
+    }
+
+    .main__web-developer-body {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .main__web-developer-form {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .main__skills-body-img > img {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+
+    .main__skills-body-img > img {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+
+    .header__body {
+        padding-top: 25px;
+    }
+
+    .main__projects-img > img {
+        width: 50%;
+    }
+
+    .main__skills-body-img img {
+        max-width: 100%;
+        display: block;
+        margin-top: 25px;
+        padding-left: 0;
+    }
+
+    .main__cards-body-img {
+        max-width: 100%;
+    }
+
+    .main__web-developer-form input,
+    .main__web-developer-form textarea {
+        width: 100%;
+    }
+
+
+    .main__cards-microsoft {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .footer__body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__text {
+        margin-bottom: 15px;
+    }
+}

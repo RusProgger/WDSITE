@@ -1,0 +1,66 @@
+@import "../fonts/fonts";
+@import "var";
+@import "normalize";
+@import "reset";
+@import "container";
+@import "components/button";
+
+
+// default style reset
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+
+    // outline: 1px solid red;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.background {
+    background-color: $grayBg;
+}
+
+
+// components
+
+// header 
+@import "../scss/layout/header";
+@import "../scss/layout/projects";
+@import "../scss/layout/skills";
+
+// layout
+@import "../scss/layout/header";
+@import "../scss/layout/about";
+@import "../scss/layout/work";
+@import "../scss/layout/cards";
+@import "../scss/layout/webdeveloper";
+@import "../scss/layout/footer";
+
+@import "components/menu";
+@import "../scss/media";
+
+
+
+
+
+
+
+
